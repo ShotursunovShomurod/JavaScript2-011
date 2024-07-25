@@ -1,0 +1,53 @@
+.navbar{
+    width: 100%;
+    background: rgb(212, 42, 42);
+    .navbar__wrapper{
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbar__logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            i{
+                color: yellow;
+            }
+            p{
+                color: yellow;
+            }
+        }
+        .navbar__title{
+            border: 1px solid red;
+            .navbar__collection{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                a{
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+        .navbar__logInOut{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .navbar__login{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 2px;
+                a{
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
